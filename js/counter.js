@@ -62,4 +62,25 @@ window.addEventListener('click', function(event){
 })
 
 
+function setWhiteTheme() {
+    localStorage.setItem("theme", "light")
+    const root = document.getElementById("mainContainer")
+    root.className="light";
+}
+
+const setCookie = () => {
+    document.cookie = "user=Dalida"
+}
+
+function setDarkTheme() {
+    localStorage.setItem("theme", "dark")
+    const root = document.getElementById("mainContainer")
+    root.className="dark";
+}
+function getValue() {
+    const theme = localStorage.getItem("theme");
+    const root = document.getElementById("mainContainer")
+    root.className=theme;
+}
+
 

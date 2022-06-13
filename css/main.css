@@ -1,7 +1,4 @@
-body, html {
-	background-color: #F8F9F9;
-	height: 100%;
-}
+
 
 h3, h4 {
 	font-family: 'Merriweather';
@@ -182,4 +179,12 @@ h3, h4 {
 
 .none {
 	display: none;
+}
+
+body .light {
+    background-color: white;
+}
+
+body .dark {
+    background-color: black;
 }
